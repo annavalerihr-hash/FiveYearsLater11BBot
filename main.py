@@ -2,7 +2,7 @@ import sqlite3
 from datetime import datetime
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
-from apscheduler.schedulers.asyncio import AsyncIOScheduler
+
 
 TOKEN = "8624724980:AAE7zRA0mARveAVlmE60GIX960gX9QUEfgQ"
 
