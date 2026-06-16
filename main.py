@@ -62,3 +62,6 @@ app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.VIDEO, receive_video))
 
 app.run_polling()
+print("Bot started...")
+
+app.run_polling()
