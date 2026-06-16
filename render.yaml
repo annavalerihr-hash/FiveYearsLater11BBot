@@ -2,6 +2,5 @@ services:
   - type: web
     name: fiveyearslaterbot
     env: python
-    runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
