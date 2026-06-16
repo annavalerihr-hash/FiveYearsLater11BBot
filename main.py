@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-TOKEN = "ТУТ_БУДЕ_ТОКЕН"
+TOKEN = "8624724980:AAE7zRA0mARveAVlmE60GIX960gX9QUEfgQ"
 
 OPEN_DATE = datetime(2031, 6, 27)
 
